@@ -16,6 +16,7 @@
 		1C7A73772A9FB45300CD1C29 /* ChipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A736E2A9FB45200CD1C29 /* ChipsViewModel.swift */; };
 		1C7A73782A9FB45300CD1C29 /* ChipsViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A736F2A9FB45200CD1C29 /* ChipsViewApp.swift */; };
 		1C7A73792A9FB45300CD1C29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A73702A9FB45200CD1C29 /* ContentView.swift */; };
+		1C7A737E2A9FBF2E00CD1C29 /* ChipsView in Frameworks */ = {isa = PBXBuildFile; productRef = 1C7A737D2A9FBF2E00CD1C29 /* ChipsView */; };
 		1C8A44182A9540CF00BA4465 /* ChipsViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A44172A9540CF00BA4465 /* ChipsViewTests.swift */; };
 		1C8A44222A9540CF00BA4465 /* ChipsViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A44212A9540CF00BA4465 /* ChipsViewUITests.swift */; };
 		1C8A44242A9540CF00BA4465 /* ChipsViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A44232A9540CF00BA4465 /* ChipsViewUITestsLaunchTests.swift */; };
@@ -61,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C7A737E2A9FBF2E00CD1C29 /* ChipsView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +107,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		1C7A737C2A9FBF2E00CD1C29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1C8A43FA2A9540CB00BA4465 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +121,7 @@
 				1C8A44162A9540CF00BA4465 /* ChipsViewTests */,
 				1C8A44202A9540CF00BA4465 /* ChipsViewUITests */,
 				1C8A44042A9540CB00BA4465 /* Products */,
+				1C7A737C2A9FBF2E00CD1C29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -158,6 +168,9 @@
 			dependencies = (
 			);
 			name = ChipsViewSample;
+			packageProductDependencies = (
+				1C7A737D2A9FBF2E00CD1C29 /* ChipsView */,
+			);
 			productName = ChipsView;
 			productReference = 1C8A44032A9540CB00BA4465 /* ChipsViewSample.app */;
 			productType = "com.apple.product-type.application";
@@ -603,6 +616,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1C7A737D2A9FBF2E00CD1C29 /* ChipsView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ChipsView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1C8A43FB2A9540CB00BA4465 /* Project object */;
 }

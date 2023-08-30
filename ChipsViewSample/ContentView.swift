@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import ChipsView
 
 struct ContentView: View, KeyboardReadable {
     @State private var newChipText = ""
