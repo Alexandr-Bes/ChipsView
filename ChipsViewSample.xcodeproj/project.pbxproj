@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C8A44072A9540CB00BA4465 /* ChipsViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A44062A9540CB00BA4465 /* ChipsViewApp.swift */; };
-		1C8A44092A9540CB00BA4465 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A44082A9540CB00BA4465 /* ContentView.swift */; };
-		1C8A440B2A9540CE00BA4465 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C8A440A2A9540CE00BA4465 /* Assets.xcassets */; };
-		1C8A440E2A9540CE00BA4465 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C8A440D2A9540CE00BA4465 /* Preview Assets.xcassets */; };
+		1C7A73712A9FB45200CD1C29 /* ChipsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A73672A9FB45200CD1C29 /* ChipsModel.swift */; };
+		1C7A73722A9FB45300CD1C29 /* ChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A73682A9FB45200CD1C29 /* ChipView.swift */; };
+		1C7A73732A9FB45300CD1C29 /* ChipsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A73692A9FB45200CD1C29 /* ChipsContainerView.swift */; };
+		1C7A73742A9FB45300CD1C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7A736A2A9FB45200CD1C29 /* Assets.xcassets */; };
+		1C7A73752A9FB45300CD1C29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7A736C2A9FB45200CD1C29 /* Preview Assets.xcassets */; };
+		1C7A73762A9FB45300CD1C29 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A736D2A9FB45200CD1C29 /* Extensions.swift */; };
+		1C7A73772A9FB45300CD1C29 /* ChipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A736E2A9FB45200CD1C29 /* ChipsViewModel.swift */; };
+		1C7A73782A9FB45300CD1C29 /* ChipsViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A736F2A9FB45200CD1C29 /* ChipsViewApp.swift */; };
+		1C7A73792A9FB45300CD1C29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A73702A9FB45200CD1C29 /* ContentView.swift */; };
 		1C8A44182A9540CF00BA4465 /* ChipsViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A44172A9540CF00BA4465 /* ChipsViewTests.swift */; };
 		1C8A44222A9540CF00BA4465 /* ChipsViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A44212A9540CF00BA4465 /* ChipsViewUITests.swift */; };
 		1C8A44242A9540CF00BA4465 /* ChipsViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A44232A9540CF00BA4465 /* ChipsViewUITestsLaunchTests.swift */; };
-		1C8A44312A9540FE00BA4465 /* ChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A44302A9540FE00BA4465 /* ChipView.swift */; };
-		1C8A44332A9563C200BA4465 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A44322A9563C200BA4465 /* Extensions.swift */; };
-		1C8A44352A95661B00BA4465 /* ChipsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A44342A95661B00BA4465 /* ChipsContainerView.swift */; };
-		1C8A44372A9567AF00BA4465 /* ChipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A44362A9567AF00BA4465 /* ChipsViewModel.swift */; };
-		1C8A44392A956BCE00BA4465 /* ChipsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A44382A956BCE00BA4465 /* ChipsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,21 +39,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C8A44032A9540CB00BA4465 /* ChipsView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChipsView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C8A44062A9540CB00BA4465 /* ChipsViewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsViewApp.swift; sourceTree = "<group>"; };
-		1C8A44082A9540CB00BA4465 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		1C8A440A2A9540CE00BA4465 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1C8A440D2A9540CE00BA4465 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1C8A44132A9540CF00BA4465 /* ChipsViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChipsViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C7A73672A9FB45200CD1C29 /* ChipsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipsModel.swift; sourceTree = "<group>"; };
+		1C7A73682A9FB45200CD1C29 /* ChipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipView.swift; sourceTree = "<group>"; };
+		1C7A73692A9FB45200CD1C29 /* ChipsContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipsContainerView.swift; sourceTree = "<group>"; };
+		1C7A736A2A9FB45200CD1C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C7A736C2A9FB45200CD1C29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C7A736D2A9FB45200CD1C29 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		1C7A736E2A9FB45200CD1C29 /* ChipsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipsViewModel.swift; sourceTree = "<group>"; };
+		1C7A736F2A9FB45200CD1C29 /* ChipsViewApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipsViewApp.swift; sourceTree = "<group>"; };
+		1C7A73702A9FB45200CD1C29 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C8A44032A9540CB00BA4465 /* ChipsViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChipsViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C8A44132A9540CF00BA4465 /* ChipsViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChipsViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C8A44172A9540CF00BA4465 /* ChipsViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsViewTests.swift; sourceTree = "<group>"; };
-		1C8A441D2A9540CF00BA4465 /* ChipsViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChipsViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C8A441D2A9540CF00BA4465 /* ChipsViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChipsViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C8A44212A9540CF00BA4465 /* ChipsViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsViewUITests.swift; sourceTree = "<group>"; };
 		1C8A44232A9540CF00BA4465 /* ChipsViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		1C8A44302A9540FE00BA4465 /* ChipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipView.swift; sourceTree = "<group>"; };
-		1C8A44322A9563C200BA4465 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		1C8A44342A95661B00BA4465 /* ChipsContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsContainerView.swift; sourceTree = "<group>"; };
-		1C8A44362A9567AF00BA4465 /* ChipsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsViewModel.swift; sourceTree = "<group>"; };
-		1C8A44382A956BCE00BA4465 /* ChipsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +81,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C7A73662A9FB45200CD1C29 /* ChipsViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				1C7A73672A9FB45200CD1C29 /* ChipsModel.swift */,
+				1C7A73682A9FB45200CD1C29 /* ChipView.swift */,
+				1C7A73692A9FB45200CD1C29 /* ChipsContainerView.swift */,
+				1C7A736A2A9FB45200CD1C29 /* Assets.xcassets */,
+				1C7A736B2A9FB45200CD1C29 /* Preview Content */,
+				1C7A736D2A9FB45200CD1C29 /* Extensions.swift */,
+				1C7A736E2A9FB45200CD1C29 /* ChipsViewModel.swift */,
+				1C7A736F2A9FB45200CD1C29 /* ChipsViewApp.swift */,
+				1C7A73702A9FB45200CD1C29 /* ContentView.swift */,
+			);
+			path = ChipsViewSample;
+			sourceTree = "<group>";
+		};
+		1C7A736B2A9FB45200CD1C29 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1C7A736C2A9FB45200CD1C29 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		1C8A43FA2A9540CB00BA4465 = {
 			isa = PBXGroup;
 			children = (
-				1C8A44052A9540CB00BA4465 /* ChipsView */,
+				1C7A73662A9FB45200CD1C29 /* ChipsViewSample */,
 				1C8A44162A9540CF00BA4465 /* ChipsViewTests */,
 				1C8A44202A9540CF00BA4465 /* ChipsViewUITests */,
 				1C8A44042A9540CB00BA4465 /* Products */,
@@ -94,35 +118,11 @@
 		1C8A44042A9540CB00BA4465 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1C8A44032A9540CB00BA4465 /* ChipsView.app */,
-				1C8A44132A9540CF00BA4465 /* ChipsViewTests.xctest */,
-				1C8A441D2A9540CF00BA4465 /* ChipsViewUITests.xctest */,
+				1C8A44032A9540CB00BA4465 /* ChipsViewSample.app */,
+				1C8A44132A9540CF00BA4465 /* ChipsViewSampleTests.xctest */,
+				1C8A441D2A9540CF00BA4465 /* ChipsViewSampleUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1C8A44052A9540CB00BA4465 /* ChipsView */ = {
-			isa = PBXGroup;
-			children = (
-				1C8A44062A9540CB00BA4465 /* ChipsViewApp.swift */,
-				1C8A44082A9540CB00BA4465 /* ContentView.swift */,
-				1C8A44342A95661B00BA4465 /* ChipsContainerView.swift */,
-				1C8A44302A9540FE00BA4465 /* ChipView.swift */,
-				1C8A44362A9567AF00BA4465 /* ChipsViewModel.swift */,
-				1C8A44382A956BCE00BA4465 /* ChipsModel.swift */,
-				1C8A44322A9563C200BA4465 /* Extensions.swift */,
-				1C8A440A2A9540CE00BA4465 /* Assets.xcassets */,
-				1C8A440C2A9540CE00BA4465 /* Preview Content */,
-			);
-			path = ChipsView;
-			sourceTree = "<group>";
-		};
-		1C8A440C2A9540CE00BA4465 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				1C8A440D2A9540CE00BA4465 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 		1C8A44162A9540CF00BA4465 /* ChipsViewTests */ = {
@@ -145,9 +145,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1C8A44022A9540CB00BA4465 /* ChipsView */ = {
+		1C8A44022A9540CB00BA4465 /* ChipsViewSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C8A44272A9540CF00BA4465 /* Build configuration list for PBXNativeTarget "ChipsView" */;
+			buildConfigurationList = 1C8A44272A9540CF00BA4465 /* Build configuration list for PBXNativeTarget "ChipsViewSample" */;
 			buildPhases = (
 				1C8A43FF2A9540CB00BA4465 /* Sources */,
 				1C8A44002A9540CB00BA4465 /* Frameworks */,
@@ -157,14 +157,14 @@
 			);
 			dependencies = (
 			);
-			name = ChipsView;
+			name = ChipsViewSample;
 			productName = ChipsView;
-			productReference = 1C8A44032A9540CB00BA4465 /* ChipsView.app */;
+			productReference = 1C8A44032A9540CB00BA4465 /* ChipsViewSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1C8A44122A9540CF00BA4465 /* ChipsViewTests */ = {
+		1C8A44122A9540CF00BA4465 /* ChipsViewSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C8A442A2A9540CF00BA4465 /* Build configuration list for PBXNativeTarget "ChipsViewTests" */;
+			buildConfigurationList = 1C8A442A2A9540CF00BA4465 /* Build configuration list for PBXNativeTarget "ChipsViewSampleTests" */;
 			buildPhases = (
 				1C8A440F2A9540CF00BA4465 /* Sources */,
 				1C8A44102A9540CF00BA4465 /* Frameworks */,
@@ -175,14 +175,14 @@
 			dependencies = (
 				1C8A44152A9540CF00BA4465 /* PBXTargetDependency */,
 			);
-			name = ChipsViewTests;
+			name = ChipsViewSampleTests;
 			productName = ChipsViewTests;
-			productReference = 1C8A44132A9540CF00BA4465 /* ChipsViewTests.xctest */;
+			productReference = 1C8A44132A9540CF00BA4465 /* ChipsViewSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		1C8A441C2A9540CF00BA4465 /* ChipsViewUITests */ = {
+		1C8A441C2A9540CF00BA4465 /* ChipsViewSampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1C8A442D2A9540CF00BA4465 /* Build configuration list for PBXNativeTarget "ChipsViewUITests" */;
+			buildConfigurationList = 1C8A442D2A9540CF00BA4465 /* Build configuration list for PBXNativeTarget "ChipsViewSampleUITests" */;
 			buildPhases = (
 				1C8A44192A9540CF00BA4465 /* Sources */,
 				1C8A441A2A9540CF00BA4465 /* Frameworks */,
@@ -193,9 +193,9 @@
 			dependencies = (
 				1C8A441F2A9540CF00BA4465 /* PBXTargetDependency */,
 			);
-			name = ChipsViewUITests;
+			name = ChipsViewSampleUITests;
 			productName = ChipsViewUITests;
-			productReference = 1C8A441D2A9540CF00BA4465 /* ChipsViewUITests.xctest */;
+			productReference = 1C8A441D2A9540CF00BA4465 /* ChipsViewSampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -221,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1C8A43FE2A9540CB00BA4465 /* Build configuration list for PBXProject "ChipsView" */;
+			buildConfigurationList = 1C8A43FE2A9540CB00BA4465 /* Build configuration list for PBXProject "ChipsViewSample" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -234,9 +234,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1C8A44022A9540CB00BA4465 /* ChipsView */,
-				1C8A44122A9540CF00BA4465 /* ChipsViewTests */,
-				1C8A441C2A9540CF00BA4465 /* ChipsViewUITests */,
+				1C8A44022A9540CB00BA4465 /* ChipsViewSample */,
+				1C8A44122A9540CF00BA4465 /* ChipsViewSampleTests */,
+				1C8A441C2A9540CF00BA4465 /* ChipsViewSampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -246,8 +246,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C8A440E2A9540CE00BA4465 /* Preview Assets.xcassets in Resources */,
-				1C8A440B2A9540CE00BA4465 /* Assets.xcassets in Resources */,
+				1C7A73752A9FB45300CD1C29 /* Preview Assets.xcassets in Resources */,
+				1C7A73742A9FB45300CD1C29 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C8A44332A9563C200BA4465 /* Extensions.swift in Sources */,
-				1C8A44352A95661B00BA4465 /* ChipsContainerView.swift in Sources */,
-				1C8A44092A9540CB00BA4465 /* ContentView.swift in Sources */,
-				1C8A44072A9540CB00BA4465 /* ChipsViewApp.swift in Sources */,
-				1C8A44392A956BCE00BA4465 /* ChipsModel.swift in Sources */,
-				1C8A44372A9567AF00BA4465 /* ChipsViewModel.swift in Sources */,
-				1C8A44312A9540FE00BA4465 /* ChipView.swift in Sources */,
+				1C7A73732A9FB45300CD1C29 /* ChipsContainerView.swift in Sources */,
+				1C7A73772A9FB45300CD1C29 /* ChipsViewModel.swift in Sources */,
+				1C7A73792A9FB45300CD1C29 /* ContentView.swift in Sources */,
+				1C7A73782A9FB45300CD1C29 /* ChipsViewApp.swift in Sources */,
+				1C7A73722A9FB45300CD1C29 /* ChipView.swift in Sources */,
+				1C7A73712A9FB45200CD1C29 /* ChipsModel.swift in Sources */,
+				1C7A73762A9FB45300CD1C29 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,12 +304,12 @@
 /* Begin PBXTargetDependency section */
 		1C8A44152A9540CF00BA4465 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1C8A44022A9540CB00BA4465 /* ChipsView */;
+			target = 1C8A44022A9540CB00BA4465 /* ChipsViewSample */;
 			targetProxy = 1C8A44142A9540CF00BA4465 /* PBXContainerItemProxy */;
 		};
 		1C8A441F2A9540CF00BA4465 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1C8A44022A9540CB00BA4465 /* ChipsView */;
+			target = 1C8A44022A9540CB00BA4465 /* ChipsViewSample */;
 			targetProxy = 1C8A441E2A9540CF00BA4465 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -436,7 +436,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ChipsView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ChipsViewSample/Preview Content\"";
 				DEVELOPMENT_TEAM = 663DYMD95T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -465,7 +465,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ChipsView/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ChipsViewSample/Preview Content\"";
 				DEVELOPMENT_TEAM = 663DYMD95T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -503,7 +503,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChipsView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChipsView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChipsViewSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChipsViewSample";
 			};
 			name = Debug;
 		};
@@ -523,7 +523,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChipsView.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChipsView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChipsViewSample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChipsViewSample";
 			};
 			name = Release;
 		};
@@ -566,7 +566,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1C8A43FE2A9540CB00BA4465 /* Build configuration list for PBXProject "ChipsView" */ = {
+		1C8A43FE2A9540CB00BA4465 /* Build configuration list for PBXProject "ChipsViewSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C8A44252A9540CF00BA4465 /* Debug */,
@@ -575,7 +575,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C8A44272A9540CF00BA4465 /* Build configuration list for PBXNativeTarget "ChipsView" */ = {
+		1C8A44272A9540CF00BA4465 /* Build configuration list for PBXNativeTarget "ChipsViewSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C8A44282A9540CF00BA4465 /* Debug */,
@@ -584,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C8A442A2A9540CF00BA4465 /* Build configuration list for PBXNativeTarget "ChipsViewTests" */ = {
+		1C8A442A2A9540CF00BA4465 /* Build configuration list for PBXNativeTarget "ChipsViewSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C8A442B2A9540CF00BA4465 /* Debug */,
@@ -593,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1C8A442D2A9540CF00BA4465 /* Build configuration list for PBXNativeTarget "ChipsViewUITests" */ = {
+		1C8A442D2A9540CF00BA4465 /* Build configuration list for PBXNativeTarget "ChipsViewSampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1C8A442E2A9540CF00BA4465 /* Debug */,
