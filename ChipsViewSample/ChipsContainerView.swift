@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import ChipsView
 
 struct ChipsContainerView: View {
     @ObservedObject private var viewModel: ChipsViewModel
@@ -22,9 +23,11 @@ struct ChipsContainerView: View {
         
         ZStack(alignment: .topLeading, content: {
             ForEach(viewModel.chips.indices, id: \.self) { chipIndex in
-                ChipView(circleColor: viewModel.chips[chipIndex].color.value,
-                         title: viewModel.chips[chipIndex].text,
-                         type: viewModel.chips[chipIndex].type)
+                ChipView(circleColor: viewModel.chips[chipIndex].color,
+                         text: viewModel.chips[chipIndex].text,
+                         type: viewModel.chips[chipIndex].type) {
+                    viewModel.remove(at: chipIndex)
+                }
                 .padding(.all, 5)
                 .alignmentGuide(.leading) { dimension in
                     if (abs(width - dimension.width) > viewWidth) {
@@ -47,9 +50,6 @@ struct ChipsContainerView: View {
                         height = 0
                     }
                     return result
-                }
-                .onTapGesture {
-                    viewModel.remove(at: chipIndex)
                 }
             }
         })

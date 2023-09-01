@@ -6,12 +6,13 @@
 //
 
 import SwiftUI
+import ChipsView
 
-struct ChipsModel: Identifiable {
+struct SampleChipModel: ChipModel {
     let id = UUID().uuidString
     let type: ChipsViewType
     let text: String
-    let color: BasicChipColors
+    let color: Color// BasicChipColors
 }
 
 enum BasicChipColors: CaseIterable, Identifiable {

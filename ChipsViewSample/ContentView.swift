@@ -73,7 +73,7 @@ struct ContentView: View, KeyboardReadable {
                 }
             }
         } label: {
-            ChipView(circleColor: newChipColor.value, title: newChipText)
+            ChipView(circleColor: newChipColor.value, text: newChipText)
                 .padding()
                 .frame(maxWidth: 300)
         }

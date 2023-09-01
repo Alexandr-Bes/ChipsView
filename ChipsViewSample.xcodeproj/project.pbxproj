@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1C7A73712A9FB45200CD1C29 /* ChipsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A73672A9FB45200CD1C29 /* ChipsModel.swift */; };
-		1C7A73722A9FB45300CD1C29 /* ChipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A73682A9FB45200CD1C29 /* ChipView.swift */; };
 		1C7A73732A9FB45300CD1C29 /* ChipsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A73692A9FB45200CD1C29 /* ChipsContainerView.swift */; };
 		1C7A73742A9FB45300CD1C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7A736A2A9FB45200CD1C29 /* Assets.xcassets */; };
 		1C7A73752A9FB45300CD1C29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7A736C2A9FB45200CD1C29 /* Preview Assets.xcassets */; };
@@ -41,7 +40,6 @@
 
 /* Begin PBXFileReference section */
 		1C7A73672A9FB45200CD1C29 /* ChipsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipsModel.swift; sourceTree = "<group>"; };
-		1C7A73682A9FB45200CD1C29 /* ChipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipView.swift; sourceTree = "<group>"; };
 		1C7A73692A9FB45200CD1C29 /* ChipsContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipsContainerView.swift; sourceTree = "<group>"; };
 		1C7A736A2A9FB45200CD1C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C7A736C2A9FB45200CD1C29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -87,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				1C7A73672A9FB45200CD1C29 /* ChipsModel.swift */,
-				1C7A73682A9FB45200CD1C29 /* ChipView.swift */,
 				1C7A73692A9FB45200CD1C29 /* ChipsContainerView.swift */,
 				1C7A736A2A9FB45200CD1C29 /* Assets.xcassets */,
 				1C7A736B2A9FB45200CD1C29 /* Preview Content */,
@@ -289,7 +286,6 @@
 				1C7A73772A9FB45300CD1C29 /* ChipsViewModel.swift in Sources */,
 				1C7A73792A9FB45300CD1C29 /* ContentView.swift in Sources */,
 				1C7A73782A9FB45300CD1C29 /* ChipsViewApp.swift in Sources */,
-				1C7A73722A9FB45300CD1C29 /* ChipView.swift in Sources */,
 				1C7A73712A9FB45200CD1C29 /* ChipsModel.swift in Sources */,
 				1C7A73762A9FB45300CD1C29 /* Extensions.swift in Sources */,
 			);

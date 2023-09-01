@@ -8,14 +8,14 @@
 import SwiftUI
 
 class ChipsViewModel: ObservableObject {
-    @Published var chips: [ChipsModel]
+    @Published var chips: [SampleChipModel]
     
-    init(chips: [ChipsModel] = ChipsMockData) {
+    init(chips: [SampleChipModel] = ChipsMockData) {
         self.chips = chips
     }
     
     func addNew(text: String, color: BasicChipColors) {
-        let newChip = ChipsModel(type: .colorImage, text: text, color: color)
+        let newChip = SampleChipModel(type: .circleColor, text: text, color: color.value)
         chips.append(newChip)
     }
     
@@ -27,7 +27,7 @@ class ChipsViewModel: ObservableObject {
 
 let chipColors: [Color] = [.blue, .yellow, .green, .red, .pink, .purple]
 let ChipsMockData = [
-    ChipsModel(type: .colorImage, text: "Hello chip", color: .blue),
-    ChipsModel(type: .colorImage, text: "Chip-chip", color: .yellow),
-    ChipsModel(type: .colorImage, text: "Hey", color: .red),
+    SampleChipModel(type: .circleColor, text: "Hi there", color: .blue),
+    SampleChipModel(type: .circleColor, text: "Chip-chip", color: .yellow),
+    SampleChipModel(type: .circleColor, text: "Hey", color: .red),
 ]
