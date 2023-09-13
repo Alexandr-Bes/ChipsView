@@ -8,11 +8,11 @@
 import SwiftUI
 import ChipsView
 
-struct SampleChipModel: ChipModel {
+struct SampleChipModel: ChipModel, Identifiable {
     let id = UUID().uuidString
     let type: ChipsViewType
     let text: String
-    let color: Color// BasicChipColors
+    let color: Color
 }
 
 enum BasicChipColors: CaseIterable, Identifiable {

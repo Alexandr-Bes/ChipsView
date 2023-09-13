@@ -8,7 +8,7 @@
 import SwiftUI
 import ChipsView
 
-struct ChipsContainerView: View {
+struct ChipsContainerView2: View {
     @ObservedObject private var viewModel: ChipsViewModel
     private let viewWidth: CGFloat
     
@@ -58,10 +58,7 @@ struct ChipsContainerView: View {
 
 struct ChipsContainerView_Previews: PreviewProvider {
     static var previews: some View {
-        ChipsContainerView(viewModel: ChipsViewModel(), width: 350)
-//        GeometryReader { previewProxy in
-//            ChipsContainerView(viewModel: ChipsViewModel(), geo: previewProxy)
-//        }
+        ChipsContainerView2(viewModel: ChipsViewModel(), width: 350)
     }
 }
 

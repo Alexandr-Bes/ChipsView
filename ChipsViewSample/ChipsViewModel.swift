@@ -3,7 +3,7 @@
 //  ChipsView
 //
 //  Created by AlexBezkopylnyi on 22.08.2023.
-//
+//  All rights reserved.
 
 import SwiftUI
 

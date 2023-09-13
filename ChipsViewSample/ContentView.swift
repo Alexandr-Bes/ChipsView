@@ -14,13 +14,17 @@ struct ContentView: View, KeyboardReadable {
     @State private var isTextFieldFocused: Bool = false
     
     
-    private let viewModel = ChipsViewModel()
+    @ObservedObject private var viewModel = ChipsViewModel()
     
     var body: some View {
         VStack {
             GeometryReader { geometry in
-                ChipsContainerView(viewModel: viewModel, width: geometry.size.width)
-                    .padding()
+//                ChipsContainerView2(viewModel: ChipsViewModel(), width: geometry.size.width)
+//                    .padding()
+                ChipsContainerView(chipsData: $viewModel.chips, width: geometry.size.width) { chipIndex in
+                    viewModel.remove(at: chipIndex)
+                }
+                .padding()
             }
         
             createNewChip()

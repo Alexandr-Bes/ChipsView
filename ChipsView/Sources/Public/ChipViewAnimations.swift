@@ -1,9 +1,9 @@
 //
-//  File.swift
+//  ChipViewAnimations.swift
 //  
 //
 //  Created by AlexBezkopylnyi on 31.08.2023.
-//
+//  All rights reserved.
 
 import SwiftUI
 

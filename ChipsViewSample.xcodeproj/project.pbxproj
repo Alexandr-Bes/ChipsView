@@ -85,13 +85,13 @@
 			isa = PBXGroup;
 			children = (
 				1C7A73672A9FB45200CD1C29 /* ChipsModel.swift */,
-				1C7A73692A9FB45200CD1C29 /* ChipsContainerView.swift */,
 				1C7A736A2A9FB45200CD1C29 /* Assets.xcassets */,
 				1C7A736B2A9FB45200CD1C29 /* Preview Content */,
 				1C7A736D2A9FB45200CD1C29 /* Extensions.swift */,
 				1C7A736E2A9FB45200CD1C29 /* ChipsViewModel.swift */,
 				1C7A736F2A9FB45200CD1C29 /* ChipsViewApp.swift */,
 				1C7A73702A9FB45200CD1C29 /* ContentView.swift */,
+				1C7A73692A9FB45200CD1C29 /* ChipsContainerView.swift */,
 			);
 			path = ChipsViewSample;
 			sourceTree = "<group>";
@@ -240,6 +240,8 @@
 				Base,
 			);
 			mainGroup = 1C8A43FA2A9540CB00BA4465;
+			packageReferences = (
+			);
 			productRefGroup = 1C8A44042A9540CB00BA4465 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

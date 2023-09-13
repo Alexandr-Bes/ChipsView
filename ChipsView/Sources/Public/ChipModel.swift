@@ -3,7 +3,7 @@
 //  
 //
 //  Created by AlexBezkopylnyi on 31.08.2023.
-//
+//  All rights reserved.
 
 import SwiftUI
 
@@ -15,7 +15,7 @@ public enum ChipsViewType {
     
 }
 
-public protocol ChipModel: Identifiable {
+public protocol ChipModel: Hashable {
     var id: String { get }
     var type: ChipsViewType { get }
     var text: String { get }
