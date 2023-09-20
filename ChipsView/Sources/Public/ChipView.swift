@@ -14,6 +14,7 @@ public struct ChipView: View {
     private let text: String
     private let type: ChipsViewType
     private let showCrossIcon: Bool
+    private let appearEffect: ChipAppearAnimation?
     
     var action: (()->())?
     
@@ -23,6 +24,7 @@ public struct ChipView: View {
         text: String? = nil,
         type: ChipsViewType = .circleColor,
         showClose: Bool = true,
+        appearEffect: ChipAppearAnimation? = .shake,
         action: (()->())? = nil)
     {
         self.circleColor = circleColor ?? .blue
@@ -30,6 +32,7 @@ public struct ChipView: View {
         self.text = text ?? ""
         self.type = type
         self.showCrossIcon = showClose
+        self.appearEffect = appearEffect
         self.action = action
     }
     
@@ -54,8 +57,7 @@ public struct ChipView: View {
             RoundedRectangle(cornerRadius: 15)
                 .stroke(borderColor, lineWidth: 1.0)
         )
-        
-        .transition(.shake(xOffset: -10.0))
+        .transition(transition)
         .onTapGesture {
             action?()
         }
@@ -79,6 +81,25 @@ private extension ChipView {
             .font(.system(size: 13))
             .lineLimit(1)
             .frame(alignment: .center)
+    }
+}
+
+private extension ChipView {
+    var transition: AnyTransition {
+        guard let appearEffect = appearEffect else {
+            return AnyTransition.identity
+        }
+        
+        switch appearEffect {
+        case .zoomIn:
+            return .zoomIn
+        case .zoomOut:
+            return .zoomOut
+        case .shake:
+            return .shake(xOffset: 8)
+        case .opacity:
+            return .opacityType
+        }
     }
 }
 

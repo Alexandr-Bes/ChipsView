@@ -19,12 +19,10 @@ struct ContentView: View, KeyboardReadable {
     var body: some View {
         VStack {
             GeometryReader { geometry in
-//                ChipsContainerView2(viewModel: ChipsViewModel(), width: geometry.size.width)
-//                    .padding()
                 ChipsContainerView(chipsData: $viewModel.chips, width: geometry.size.width) { chipIndex in
                     viewModel.remove(at: chipIndex)
                 }
-                .padding()
+//                .padding()
             }
         
             createNewChip()

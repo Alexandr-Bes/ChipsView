@@ -21,3 +21,11 @@ public protocol ChipModel: Hashable {
     var text: String { get }
     var color: Color { get }
 }
+
+//TODO: - add parameters
+public enum ChipAppearAnimation {
+    case zoomIn
+    case zoomOut
+    case shake
+    case opacity
+}

@@ -15,6 +15,7 @@ class ChipsViewModel: ObservableObject {
     }
     
     func addNew(text: String, color: BasicChipColors) {
+        guard !text.isEmpty else { return }
         let newChip = SampleChipModel(type: .circleColor, text: text, color: color.value)
         chips.append(newChip)
     }
