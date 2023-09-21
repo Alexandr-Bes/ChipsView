@@ -18,7 +18,6 @@ let package = Package(
             name: "ChipsView",
             dependencies: [],
             path: "Sources"),
-//            path: "Sources"),
         .testTarget(
             name: "ChipsViewTests",
             dependencies: ["ChipsView"]),

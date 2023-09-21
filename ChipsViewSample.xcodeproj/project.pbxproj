@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,9 +15,7 @@
 		1C7A73782A9FB45300CD1C29 /* ChipsViewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A736F2A9FB45200CD1C29 /* ChipsViewApp.swift */; };
 		1C7A73792A9FB45300CD1C29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7A73702A9FB45200CD1C29 /* ContentView.swift */; };
 		1C7A737E2A9FBF2E00CD1C29 /* ChipsView in Frameworks */ = {isa = PBXBuildFile; productRef = 1C7A737D2A9FBF2E00CD1C29 /* ChipsView */; };
-		1C8A44182A9540CF00BA4465 /* ChipsViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A44172A9540CF00BA4465 /* ChipsViewTests.swift */; };
-		1C8A44222A9540CF00BA4465 /* ChipsViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A44212A9540CF00BA4465 /* ChipsViewUITests.swift */; };
-		1C8A44242A9540CF00BA4465 /* ChipsViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A44232A9540CF00BA4465 /* ChipsViewUITestsLaunchTests.swift */; };
+		1CE779312ABC4B8600C377DB /* ChipsView in Frameworks */ = {isa = PBXBuildFile; productRef = 1CE779302ABC4B8600C377DB /* ChipsView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,10 +45,7 @@
 		1C7A73702A9FB45200CD1C29 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1C8A44032A9540CB00BA4465 /* ChipsViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChipsViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C8A44132A9540CF00BA4465 /* ChipsViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChipsViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C8A44172A9540CF00BA4465 /* ChipsViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsViewTests.swift; sourceTree = "<group>"; };
 		1C8A441D2A9540CF00BA4465 /* ChipsViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChipsViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C8A44212A9540CF00BA4465 /* ChipsViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsViewUITests.swift; sourceTree = "<group>"; };
-		1C8A44232A9540CF00BA4465 /* ChipsViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChipsViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +54,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C7A737E2A9FBF2E00CD1C29 /* ChipsView in Frameworks */,
+				1CE779312ABC4B8600C377DB /* ChipsView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,8 +108,6 @@
 			isa = PBXGroup;
 			children = (
 				1C7A73662A9FB45200CD1C29 /* ChipsViewSample */,
-				1C8A44162A9540CF00BA4465 /* ChipsViewTests */,
-				1C8A44202A9540CF00BA4465 /* ChipsViewUITests */,
 				1C8A44042A9540CB00BA4465 /* Products */,
 				1C7A737C2A9FBF2E00CD1C29 /* Frameworks */,
 			);
@@ -127,23 +121,6 @@
 				1C8A441D2A9540CF00BA4465 /* ChipsViewSampleUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		1C8A44162A9540CF00BA4465 /* ChipsViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				1C8A44172A9540CF00BA4465 /* ChipsViewTests.swift */,
-			);
-			path = ChipsViewTests;
-			sourceTree = "<group>";
-		};
-		1C8A44202A9540CF00BA4465 /* ChipsViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1C8A44212A9540CF00BA4465 /* ChipsViewUITests.swift */,
-				1C8A44232A9540CF00BA4465 /* ChipsViewUITestsLaunchTests.swift */,
-			);
-			path = ChipsViewUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +141,7 @@
 			name = ChipsViewSample;
 			packageProductDependencies = (
 				1C7A737D2A9FBF2E00CD1C29 /* ChipsView */,
+				1CE779302ABC4B8600C377DB /* ChipsView */,
 			);
 			productName = ChipsView;
 			productReference = 1C8A44032A9540CB00BA4465 /* ChipsViewSample.app */;
@@ -238,6 +216,7 @@
 			);
 			mainGroup = 1C8A43FA2A9540CB00BA4465;
 			packageReferences = (
+				1CE7792F2ABC4B8600C377DB /* XCLocalSwiftPackageReference "" */,
 			);
 			productRefGroup = 1C8A44042A9540CB00BA4465 /* Products */;
 			projectDirPath = "";
@@ -293,7 +272,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C8A44182A9540CF00BA4465 /* ChipsViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,8 +279,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C8A44222A9540CF00BA4465 /* ChipsViewUITests.swift in Sources */,
-				1C8A44242A9540CF00BA4465 /* ChipsViewUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -611,8 +587,19 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		1CE7792F2ABC4B8600C377DB /* XCLocalSwiftPackageReference "" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "";
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		1C7A737D2A9FBF2E00CD1C29 /* ChipsView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ChipsView;
+		};
+		1CE779302ABC4B8600C377DB /* ChipsView */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = ChipsView;
 		};
