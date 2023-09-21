@@ -5,7 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "ChipsView",
-    platforms: [.iOS(.v16)], // Minimum deployment target is iOS 16
+    platforms: [.iOS(.v16)], //Minimum deployment target is iOS 16
     products: [
         .library(
             name: "ChipsView",
