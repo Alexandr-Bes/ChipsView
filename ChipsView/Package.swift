@@ -22,6 +22,5 @@ let package = Package(
         .testTarget(
             name: "ChipsViewTests",
             dependencies: ["ChipsView"]),
-    ],
-    .version("1.0.0")
+    ]
 )
